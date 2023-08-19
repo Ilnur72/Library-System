@@ -1,8 +1,11 @@
+Kutubxona uchun tizim.
+
+
+bu bilan login qilinadi. Roli superadmin.
 super admin :
     username: "superadmin",
     password: super1234
 
-/loan yo'liga deu_date maydoniga kitobni necha kunga berilganligini jo'natish kerak misol: 20
 
 ADMINS
 POST /login | Adminlar login qilishi uchun API    
@@ -72,3 +75,4 @@ Loan Schema: {
     due_date: Olib kelinishi kerak bo’lgan sana
     borrower: Kitobxon IDsi
 }# Library-System-Backend
+/loan yo'liga deu_date maydoniga kitobni necha kunga berilganligini jo'natish kerak misol: 20
